@@ -9,5 +9,5 @@ Ensure the Microsoft build tools are in your %PATH% and run 'build.ps1' or 'buil
 Decorate your assembly with an `TestAssemblyBuilderAttribute` pointing to the desired `ITestAssemblyBuilder` interface:
 
 ```
-[assembly:TestAssemblyBuilder(typeof(MyCustomTestAssemblyBuilder)))]
+[assembly:TestAssemblyBuilder(typeof(MyCustomTestAssemblyBuilder))]
 ```
